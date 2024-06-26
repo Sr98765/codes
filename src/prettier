@@ -1,0 +1,7 @@
+Prettier Integration: Prettier's formatting rules are enforced by ESLint due to the integration setup (eslint-config-prettier and eslint-plugin-prettier). If you want to format your code automatically according to Prettier rules, you can set up a script in package.json:
+You can then run npm run format to format your code using Prettier.
+
+
+"scripts": {
+  "format": "prettier --write 'src/**/*.js'"
+}
